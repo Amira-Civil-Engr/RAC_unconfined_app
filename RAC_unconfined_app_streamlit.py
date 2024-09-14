@@ -70,3 +70,10 @@ elif upload_method == 'Enter Manually':
     }
     if st.button("Predict"):
         predict_from_manual_input_unconfined(inputs)
+
+
+# Footer
+st.markdown("---")
+st.markdown("© 2024 (Amira Ahmed, Wu Jin, Mosaad Ali ). All rights reserved.")
+st.markdown("Developed by Amira Ahmed. Contact: amira672012@yahoo.com")
+
